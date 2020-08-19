@@ -17,7 +17,7 @@ SELECT title FROM Movie where mID not in (SELECT mID FROM Rating);
 
 Q4
 1/1 point (graded)
-Some reviewers didn't provide a date with their rating. Find the names of all reviewers who have ratings with a NULL value for the date.
+Some reviewers didn\'t provide a date with their rating. Find the names of all reviewers who have ratings with a NULL value for the date.
 SELECT name FROM Reviewer where rID in ( SELECT rID FROM Rating WHERE ratingDate is  NULL);
 
 Q5
