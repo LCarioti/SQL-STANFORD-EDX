@@ -79,7 +79,7 @@ from Highschooler H1 , Highschooler H2 , Highschooler H3 , Likes L1 , Likes L2
 where ( H1.ID = L1.ID1 and H2.ID = L1.ID2) and ( H2.ID = L2.ID1 and H3.ID = L2.ID2 and H3.ID  <> H1.ID);
 
 Q2
---0 points (ungraded)
+-- 0 points (ungraded)
 -- Find those students for whom all of their friends are in different grades from themselves. Return the students' names and grades.
 SELECT H1.name, H1.grade
 from Highschooler H1
